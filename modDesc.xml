@@ -13,7 +13,7 @@
     </title>
 
     <description>
-    <en><![CDATA[Optimize game performance by dynamically adjusting the visibility of vehicles and implements.
+<en><![CDATA[Optimize game performance by dynamically adjusting the visibility of vehicles and implements.
 This mod reduces rendering load by hiding distant, unused machinery while keeping active fleet fully visible.
 
 Github-Link: https://github.com/LimnedMoon/FS25_vehicleDistanceOptimizer/
@@ -23,7 +23,7 @@ Features:
 - Reduces GPU and CPU load by non-render parked equipment.
 - Distinguishes between player-controlled, AI-helper, and parked vehicles.]]></en>
 
-    <de><![CDATA[Optimiert Performance durch dynamische Anpassung der Sichtweite von Fahrzeugen und Geräten.
+<de><![CDATA[Optimiert Performance durch dynamische Anpassung der Sichtweite von Fahrzeugen und Geräten.
 Diese Mod reduziert Grafiklast, indem sie weit entfernte, ungenutzte Maschinen ausblendet, während der aktive Fuhrpark voll sichtbar bleibt.
 
 Github-Link: https://github.com/LimnedMoon/FS25_vehicleDistanceOptimizer/
