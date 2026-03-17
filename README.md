@@ -4,12 +4,12 @@
 Optimize game performance by dynamically adjusting the visibility of vehicles and implements.
 This mod reduces rendering load by hiding distant, unused machinery while keeping active fleet fully visible.
 
+Github-Link: https://github.com/LimnedMoon/FS25_vehicleDistanceOptimizer/
+
 Features:
 - Automatically adjusts clip distance based on vehicle usage.
 - Reduces GPU and CPU load by non-render parked equipment.
 - Distinguishes between player-controlled, AI-helper, and parked vehicles.
-
-Github-Link: https://github.com/LimnedMoon/FS25_vehicleDistanceOptimizer/
 
 ---
 
