@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="107">
+
+    <author>LimnedMoonlight</author>
+    <version>1.0.0.0</version>
+
+    <multiplayer supported="true"/>
+    <iconFilename>modIcon.dds</iconFilename>
+
+    <title>
+        <en> Vehicle Distance-Optimizer</en>
+        <de>Vehicle Distance-Optimizer</de>
+    </title>
+
+    <description>
+    <en><![CDATA[Optimize game performance by dynamically adjusting the visibility of vehicles and implements.
+This mod reduces rendering load by hiding distant, unused machinery while keeping active fleet fully visible.
+
+Features:
+- Automatically adjusts clip distance based on vehicle usage.
+- Reduces GPU and CPU load by non-render parked equipment.
+- Distinguishes between player-controlled, AI-helper, and parked vehicles.]]></en>
+
+    <de><![CDATA[Optimiert Performance durch dynamische Anpassung der Sichtweite von Fahrzeugen und Geräten.
+Diese Mod reduziert Grafiklast, indem sie weit entfernte, ungenutzte Maschinen ausblendet, während der aktive Fuhrpark voll sichtbar bleibt.
+
+Features:
+- Automatische Anpassung basierend auf dem Fahrzeugstatus.
+- Reduziert GPU- und CPU-Last durch Nicht-rendern geparkter Geräte.
+- Unterscheidet zwischen Spieler-Fahrzeug, Helfer-Einsatz und Stillstand.]]></de>
+    </description>
+
+    <extraSourceFiles>
+        <sourceFile filename="src/VehicleDistanceOptimizer.lua" />
+    </extraSourceFiles>
+
+</modDesc>
