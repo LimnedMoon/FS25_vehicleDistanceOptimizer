@@ -1,37 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="107">
     <author>LimnedMoonlight</author>
-    <version>1.0.0.5</version>
+    <version>1.0.0.1</version>
 
     <title>
-        <en>Vehicle Distance-Optimizer</en>
-        <fr>Vehicle Distance-Optimizer</fr>
-        <de>Vehicle Distance-Optimizer</de>
+        <en>Vehicledistance Optimizer</en>
+        <fr>Vehicledistance Optimizer</fr>
+        <de>Vehicledistance Optimizer</de>
     </title>
 
     <description>
 <en><![CDATA[Optimize game performance by dynamically adjusting the visibility (clip distance) of vehicles and implements.
 This mod reduces rendering load by hiding distant, unused machinery while keeping active fleet fully visible.
 
-Github-Link: https://github.com/LimnedMoon/FS25_vehicleDistanceOptimizer/
-
 Features:
 - Automatically adjusts clip distance based on vehicle usage.
 - Reduces GPU and CPU load by adjusting parked equipment.
 - Distinguishes between player-controlled, AI-helper, and parked vehicles.
 - Custom settings via XML file in modSettings folder.
+
+Github-Link: https://github.com/LimnedMoon/FS25_vehicleDistanceOptimizer/
+
+Changelog Version 1.0.0.1:
+- Implement function to create global settings.xml in documents/farmingsimulator 25
 ]]></en>
 
 <fr><![CDATA[Optimisez les performances du jeu en ajustant dynamiquement la visibilite (distance de coupure) des véhicules et des outils agricoles.
 Ce mod reduit la charge de rendu en masquant les machines eloignees et inutilisees, tout en conservant une visibilite totale sur la flotte active.
-
-Github-Link: https://github.com/LimnedMoon/FS25_vehicleDistanceOptimizer/
 
 Caracteristiques :
 - Adaptation automatique en fonction de l'etat du vehicule.
 - Reduit la charge du GPU et du CPU lorsque les vehicules sont a l'arret.
 - Distingue entre le vehicule du joueur, les interventions d'assistance et l'arret complet.
 - Possibilite de personnaliser les parametres via un fichier XML dans le dossier modSettings.
+
+Github-Link: https://github.com/LimnedMoon/FS25_vehicleDistanceOptimizer/
+
+Journal des modifications, version 1.0.0.1 :
+- Implementer une fonction permettant de creer le fichier global settings.xml dans le repertoire documents/farmingsimulator 25
 ]]></fr>
 
 <de><![CDATA[Optimiert die Performance durch dynamische Anpassung der Sichtweite (Clip-Distance) von Fahrzeugen und Geräten.
@@ -44,6 +50,9 @@ Features:
 - Reduziert GPU- und CPU-Last bei geparkten Geräten.
 - Unterscheidet zwischen Spieler-Fahrzeug, Helfer-Einsatz und Stillstand.
 - Eigene Einstellungen über eine XML-Datei im modSettings-Ordner möglich.
+
+Änderungsprotokoll Version 1.0.0.1:
+- settings.xml- Datei in Verzeichnis „documents/farmingsimulator 25“ erstellt
 ]]></de>
     </description>
 
